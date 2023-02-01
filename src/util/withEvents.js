@@ -1,3 +1,5 @@
+// taken from https://github.com/ryansolid/component-register-extensions/blob/master/src/mixins/withEvents.js
+
 import { createMixin } from "component-register";
 
 export const withEvents = createMixin(options => {

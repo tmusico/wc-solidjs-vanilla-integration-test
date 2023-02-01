@@ -1,3 +1,4 @@
+// taken from https://github.com/ryansolid/component-register-extensions/blob/master/src/mixins/withSetProperty.js
 import { createMixin } from "component-register";
 
 export const withSetProperty = createMixin(options => {

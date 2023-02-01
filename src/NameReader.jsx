@@ -3,9 +3,9 @@ import { withSolid } from "solid-element";
 import { compose, register} from 'component-register'
 import { withEvents } from './util'
 
-export const NameReader = (props, element) => {
+export const NameReader = (props, options) => {
     const [name, setName] = createSignal(props.name);
-    const { events } = element;
+    const { events } = options;
 
     createEffect(() => {
         events.trigger('onNameChanged', { name: name() });
