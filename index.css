@@ -1,0 +1,36 @@
+/* material like design for the entire page */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+/* make it flashy and blue and bold */
+.tryNameChange {
+    color: #3f51b5;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* utilities */
+.p-4 {
+    padding: 1.5rem !important;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+.flex-row {
+    flex-direction: row !important;
+}
+
+.align-items-center {
+    align-items: center !important;
+}
